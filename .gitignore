@@ -1,0 +1,49 @@
+# Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files (خصوصی)
+Dataset.csv
+Quran Gate.xlsx
+*.csv
+*.xlsx
+*.xls
+data/
+private_data/
+datasets/
+
+# PyTorch models
+*.pth
+best_*.pth
+temp_*.pth
+*.pt
+
+# Output files
+*.docx
+*.png
+*.jpg
+*.jpeg
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
